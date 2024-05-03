@@ -1,14 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Single Price Grid Component</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    
+  </head>
 
-    <body>
-        
-    </body>
+
+  <body>
+
+    <header>
+
+      <nav class="nav-header">
+
+        <h1 class="title-nav">HarmonicSonic</h1>
+
+        <span id="burguer" class="material-symbols-rounded">menu</span>
+
+        <ul class="list-nav">
+          <li><button class="btn-nav">Produtos</button></li>
+          <li><button class="btn-nav">Software</button></li>
+          <li><button class="btn-nav">Inovação</button></li>
+          <li><button class="btn-nav">Suporte</button></li>
+          
+        </ul>
+
+      </nav>
+
+    </header>
+
+
+
+    <main>
+
+      <img class="img-section-1" src="assets/pexels-garrettmorrow-1649771.jpg" alt="">
+
+      <section class="section-1">
+
+        <p class="p-section">A HarmonicSonic é mais do que uma marca de fones de ouvido; é uma experiência sonora que transcende os limites da audição. Nossa missão é proporcionar uma conexão emocional por meio da música, dos jogos e do entretenimento, elevando cada momento a um nível superior de imersão. Combinando inovação tecnológica com design elegante e conforto excepcional, os fones de ouvido HarmonicSonic são projetados para oferecer qualidade de áudio excepcional, desde os agudos mais delicados até os graves mais profundos, tudo com uma clareza cristalina. Permita-se mergulhar em um mundo de sons nítidos, onde cada nota ressoa com harmonia e cada batida faz seu coração vibrar. Com HarmonicSonic, você não apenas ouve a música, você a sente.</p>
+
+        <button class="btn-section-1">Comprar</button>
+
+      </section>
+
+
+
+      <section class="section-2"> 
+
+        <h2 class="title-section">OUÇA CADA DETALHE</h2>
+
+        <p class="p-section">Nos vastos domínios dos jogos e no amplo panorama da música, a nitidez do áudio e a profundidade dos graves são essenciais. Os drivers HarmonySound são meticulosamente construídos com um material de malha híbrida exclusivo, elaborado para reduzir distorções e proporcionar uma reprodução sonora precisa e limpa. Essa tecnologia oferece uma experiência imersiva e envolvente, onde cada nota e efeito sonoro são reproduzidos com uma fidelidade excepcional. Permita-se ser envolvido por uma atmosfera rica e suave, onde os sons se entrelaçam em uma harmonia que cativa os sentidos e transporta você para novos universos de áudio.</p>
+
+      </section>
+      
+      
+      <img class="img-section-2" src="assets/pexels-divinetechygirl-1181367.jpg" alt="">
+
+
+      <section class="section-3">
+
+        <h3 class="title-section">ÁUDIO ENVOLVENTE</h3>
+
+        <p class="p-section">Experimente toda essa qualidade sonora com os nossos drivers proprietários HarmonyTech, criados para oferecer um áudio preciso e envolvente em toda a sua extensão. Adentre o jogo como nunca antes com o som surround de última geração da HarmonicSurround 3D. Note que recursos avançados, como o HarmonicSurround 3D, VoiceTech e LightSync RGB, podem não estar disponíveis em todas as plataformas. Desfrute de um som incrível e claro, acompanhado de um microfone certificado para a melhor comunicação no Discord.</p>
+
+      </section>
+      
+    </main>
+
+
+    <footer>
+
+      <p class="">© 2024 Feito com &#10084;&#65039;&#65039; por <strong>Ana Carolina</strong></p>
+
+      <ul class="footer-social">
+
+        <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAApdJREFUSEt9ljtoFVEQhr8BIYpaiI1EERsLQRFLRRAL0SCiooUoNgoxWMi9BMRCfCAWQiRJ4QMs0ggWoqD4qBQLsU6Z+ABRNI2FRUDhSsZ7Hrt7Xnu32j13Zv6Z+f+ZcwXzCKD2LXiKh4lxm40zE3Whs6DOzVu0ABdtCi7myEHZQLVbBTCEcgw4AGwHNvlavwrMKrwGngK9OI7L2URzFdQYYckyAnrXB838g1Q+C4wpvElTrL7jFrlqrvUzvVpmpVjxksJFhNshl20VXAeuZOQP4LNOROiIMm3580iOgxpWDiH6vKYkF9gvYBx4J/DN0zaBmjMbZwnYA7wvqWgV8AlhXS5Zi/QPZSswn/R6QmA80Mg8yDbQXkVvVcEYcG/ANDwCTgZK26ewC2E/ys7Kz/fjCPCs4cD9+gI4OADgMnDTc3Mc5XFqG1T2AHS0UZGD/QEMp3MXjEgXZcpX0BGYDMlMBnYWdEckU4E/CssbzjPZdMEA2McDtK0ZfgNr0hYtgqxMltKCqyrZATH2W4G9yUZZBFY3JIuabfFRkc2BZE3ffgLrYwKzyr4DG5K5mQO2pJP8sC/TUw1R1mVBYDjbd83WGgL9G/bfw88AZ1KZngCMFNu2d1eUKa/3DspkZtl00so0UpEoyxS+ABtL8kNoAKADHiAce5fcnAbtSVfFCKKvnM9gFdUA8dirwG6FDyFvQcK2xmmUCzFpFszL1L6X50C4gZpF2fSqvtGC/S4C9xVGkyKiOQgr8L63+oRfqrP1DShemd7otAvCWv/dFQzJroIAwGyAc8DL0pAOuJNt2BXAWeCovxrv+NadRznc35pPQGcEeiUpRzKtKU24jW6Lau8mxvld5Dho/VfhWpKvh0SRiZqboMHdwH++eAgwZ5rzqQAAAABJRU5ErkJggg=="/></li>
+
+        <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAmtJREFUSEuNlrtrVkEQxX+jAYVIqlgIER8gIqiIWCWlIiiCUUQUwUILkfSKovgHaGORYCMhYJMmhSBYpJGQRhQULawMfiAKYiWB+IDx22/v7p19XOMW32N3Z+ees+fMXKEyBFD8px/lTC3ObRNtoppw91UMe3RMYCNFi4PMcyTnlQnK0yMCmyzms6uVWAeqgxAfWT2oyk99MiJokg8jrEbq6zEjCPdQTgG7gN/ANHAb2AacBpkGVXdmRABsBN4D54F3AVklxyLCUY8s4aSHsB3lIjAf4jwCv28nyAqi30Q5o7DcLsU0h4HXbdJCaa+AF8AThDeOCZtgM/ADYchTJI8RvYvyxaC5NAiOI7s/YVWUKYW58HDZHcgy6HgmhiXgKfBS4JDCw5YZrwIjhFngiqXVynQLsBd4DoxaDlO75eHJTdwXuOEJ8D6NFIkypsgn0O99VWz9bwPGqx6gmUKZsQKxCDYAH4EdGcVdf2vz+4APJUXRUHIW0XmUoYKiqsMTnCvA7hy5pSj4y/ngDnDgH3JMHeA3XgcedSZopOlu5iTwLDVaVjNKmfYU9iD8yquA9YEtPnMgl1uvZnJM6foDTDgZJ/JtMlXLNeAufD9wS+BC0Rva0u0KxlWB2SBlC85ts7UorA0DR4CbwIlS9X5GYE3BOXuha0+wQwg4pvAA4aCXdpdsBvPOjNf6ru21nippbBAk+UcQPYcyCRxH2ITyE/gKfAYWQRYQfRurqW0YGT+VBBF+AyI02KyprWu9VOCBoqzFZ4puzZi2OftKkBa+Ackl1+s7tnig6iW3xa7syZao8nfuVVNU8neW/tJfeynlH/Vd2RgAAAAASUVORK5CYII="/></li>
+
+        <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAwlJREFUSEt91k+oVVUUBvDfegqF/XHisFKwokKiwoiQalASCBH1RMuaZw0CJQuKZlH0ihJHBc3iVY/KoqCJzcRHhBJCWRFGBA2imTTSanX2Ofude965970Nl3vvPnuvvdb3fftbJ9QRyJU/606OF9HtHUYIItuAZXZqzDxstGp6zexd3QFrRRzNzwxaM52qoxbRV9Bv7n5sJw6T92AHEWMA6/qC6vfByeQofpmF8njuII5hI37HN/hp1aIJxHcIt0nX4hKewXtDCkccxE6yBDyHR4TzHfPrsNI92oEvcB3uxHcrW8YcHMce3ITfJlnP1Ek5+0rhXWkZy8Jp6XNifrWKJiWXoOeCPSPJzgm7I92S4l/yx+DrFDeSBb5lYhd5OtiSbFurggtYxNMDWAq+S8LdPVydck7icWxq1v/ZiOICWRB4EFcMeRjy9x/exPNVvnORTqXYJvI56QSxgdzdBF5oVRPujZTtRYtcirQ32bC6ggmNBZnX8GI9dV+bvdhHftxn0lGyv+Hqo4bQhyvB5fGHwf6kQDrzJpdEFqQXarCF4EiKq8i/u7mOsMgW67+EV6SX66NF6UC7aNUBExWWCo4GhyrJr1e4NqPwMxxblAN4NXipqvl96ckKSG8SA7do2Xu7CXa4Ts43Gv+kua178ekwenAgxSI5hKgI5DGFgzrGVtFWgEMrJEuniK3kkeBEio3kA41S3mhU9DPuKz5SK16qnFw+OGDVJSo4lyyeGpjXNdmRuWsEUSfT8MfA5483vnR/srlS1X4N3byYVfmU2zwcczWzhxqFXcRX+HJGCzmDq5skb1gN0YTkkv2jjTRvnrKK3pZHR0/23tr419ngg+SJtTi4HSWLs5jHryNiR12vj16Cf4atuIs4s2LvPUQDjR+MdKy9LHwbXKzt8B/8QFwm8npZ7Ly9E5si7UzK82fxzjD76YbTiXh7jhvOqHPVIG3DofWlt3B+XPHMnjxCuTeS9Xv1qOnX14C+HwwTnP49vbmHdPg+0dv+ZH3Hwczo0yHWf5MYxplg8D+R9xEu6zfuvgAAAABJRU5ErkJggg=="/></li>
+
+        <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhxJREFUSEuNlb9qVkEQxX8TUyhREQ2EgJLCgFhYJI2lnY1gkRewECyiLxGSNo1gJYiv4CvYqaBo45/CIgQLDQQxhRA+xzvu3r37P97q+3Z3ds6Zc2ZWyD8BtL7otrIDAqI+pBJr29GJIp2/rowMK+WP5BLb/pfDoW7BcesBabii5JTncwyymvRBlSUqS+oQ2MlOgqoYHZZlecckcWWWgW2BVYXLwNV6WMJbBT4q/AA+D4i3FL6NcU4D910D3gDn4kurBezoAfwEWQf9Oqo6mu+5wr1EkhMcUtPPg3uGcN9METN4C6wVHhvdFSvZ8b731WvQm5MG7tYD4FKj5tZfd1AeA6vTmZYR2ANWkgQCM4W5pC2mFvkziH8KmB+APELYRjmbgkmSHQIXYxctoBy1HONFmgvNiC4K7AxueYAglT74hXA+1sCQHXeabubRjxgWh/87WAKQihd+A2d8owXcbsRVR5PMQA3EPMgm6BZwoWA8xX4HlvIEVqKFyrC0ChiDDYFdTUSO51jy+xPCdQuMbboHcqU5l0J8LGZ1gBuxl8CtnMEL4G7eB9VZ3xm63ghPQU2fhMEN4JWJ45KUSKvr9ddmHXiX94ElX0N4iLLvmdz23X26Ir5p9sG5L3xfgCfA+3GlHNcnPIHtXsn08AUICcJ2Rrk5DCKI1QdnSpBhapU+UyXo0QLUZNCD8x+o83c7PPqtB70zn0pTxYc9g79rUsgfRcLYUQAAAABJRU5ErkJggg=="/></li>
+
+      </ul>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+  </body>
 
 </html>
